@@ -8,7 +8,7 @@
     <meta name="description" content="Webmin - Bootstrap 4 & Angular 5 Admin Dashboard Template" />
     <meta name="author" content="potenzaglobalsolutions.com" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <title>{{$detail->name}} </title>
+    <title>المدرسة التقنية </title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/favicon.ico" />
@@ -47,7 +47,7 @@ login-->
                      style="background-image: url({{asset('images/login-inner-bg.jpg')}});">
                     <div class="login-fancy ">
 
-                            <h4 class="text-white mb-20 ">مرحبا بك في مدرسة {{$detail->name}} </h4>
+                            <h4 class="text-white mb-20 ">مرحبا بك في المدرسة التقنية  </h4>
 
                                 <img style="width: 130px; border-radius:0 15px 15px 0;height: 150px;position: absolute;left: 0;top: 0" src="{{asset('assets/images/login-auth.png')}}" alt="...">
 

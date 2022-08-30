@@ -166,6 +166,7 @@ class booksController extends Controller
         foreach ($attachments as $attachment) {
             $file_name = $attachment->file_name;
             $book_file = Storage::disk('public_uploads')->getDriver()->getAdapter()->applyPathPrefix($file_name);
+            dd($book_file);
             return response()->file($book_file);
         }
 

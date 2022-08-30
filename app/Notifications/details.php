@@ -39,7 +39,6 @@ class details extends Notification
             ->line('المرسل : '  . $name)
             ->line('تفاصيل الايميل المرسل : '  .  $detail);
 
-
     }
 
 

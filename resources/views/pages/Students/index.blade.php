@@ -23,10 +23,10 @@
                             <div class="card-body">
                                 @if (auth()->user()->hasPermission('edit_grades'))
 
-                                    <a href="{{route('Students.create')}}" class="btn btn-success btn-lg my-2"
-                                       role="button"
-                                       aria-pressed="true">{{trans('main_trans.add_student')}}
-                                    </a>
+{{--                                    <a href="{{route('Students.create')}}" class="btn btn-success btn-lg my-2"--}}
+{{--                                       role="button"--}}
+{{--                                       aria-pressed="true">{{trans('main_trans.add_student')}}--}}
+{{--                                    </a>--}}
                                 @endif
 
                                 {{--                                    <form action="{{route('filter.classes')}}" method="POST" style="position: relative;left: 20px;float: left;margin-bottom: 10px">--}}

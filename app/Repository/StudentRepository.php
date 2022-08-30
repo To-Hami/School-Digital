@@ -27,18 +27,19 @@ class StudentRepository implements StudentRepositoryInterface
     {
         $students = Student::all();
         $histories = History::all();
-        foreach ( $histories as $history) {
-            return view('pages.Students.index', compact('students','history'));
+        foreach ($histories as $history) {
+            return view('pages.Students.index', compact('students', 'history'));
         }
     }
-/*************************************   index   *******************************************/
+
+    /*************************************   index   *******************************************/
     public function index()
     {
         $students = Student::all();
         return view('pages.Students.index', compact('students'));
     }
 
-/********************************************  create    *******************************************/
+    /********************************************  create    *******************************************/
 
 
     public function Create_Student()
@@ -46,8 +47,17 @@ class StudentRepository implements StudentRepositoryInterface
         $data['my_classes'] = Classroom::all();
         $data['Years'] = Year::all();
         $data['my_Grades'] = Grade::all();
+        $histories = History::all();
+         $history = '';
+        foreach ($histories as $history) {
+            $this->history = $history;
+        }
+        $data['history'] = $history ;
 
-        return view('pages.Students.add', $data);
+
+
+        return view('pages.Students.add', compact($data));
+
 
     }
 
@@ -118,7 +128,7 @@ class StudentRepository implements StudentRepositoryInterface
         $data['Genders'] = Gender::all();
         $data['nationals'] = Nationalitie::all();
         $data['bloods'] = Type_Blood::all();
-        $Students  = Student::findOrFail($request->id);
+        $Students = Student::findOrFail($request->id);
         return view('pages.Students.edit', $data, compact('Students'));
     }
 
@@ -147,7 +157,6 @@ class StudentRepository implements StudentRepositoryInterface
             $students->Classroom_id = $request->Classroom_id;
             $students->academic_year = $request->academic_year;
             $students->save();
-
 
 
             toastr()->success(trans('messages.Update'));
