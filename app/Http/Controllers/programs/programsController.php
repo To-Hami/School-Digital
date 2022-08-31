@@ -125,16 +125,17 @@ class programsController extends Controller
     }
 
 
-    public function destroy(request $request)
+    public function destroy(Program $program)
     {
-        $program =  Program::findOrFail($request->id);
+
         File::deleteDirectory(public_path('Attachments/programs/'. $program->id));
-        Program::findOrFail($request->id)->delete();
+        $program->delete();
 
         toastr()->success(trans('messages.Delete'));
         return redirect()->route('programs.index');
 
     }
+
     public function show(Request $request, $id){
 
         function getYoutubeId($url)

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="keywords" content="HTML5 Template" />
+    <meta name="keywords" content="ظام الارشاد والتوجية" />
     <meta name="description" content="نظام المدرسة التقنية هو نظام اداري ارشادي لمساعدة المشرفين والاداريين في متابعه اجراءات الطلاب بالمدارس ." />
     <meta name="author" content="بدر العصيمي" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
