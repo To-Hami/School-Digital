@@ -3,12 +3,15 @@
 
     <!-- Navbar Start -->
     <div class="row" style="background-color: #17A2B8;height: 40px;color: #f2f2f2">
-        <div class="col" style="float: right;text-align: right;margin: 7px 39px 3px 0;
-    font-size: 20px;">
-            <a href="{{route('frontend')}}" target="_blank" style="color: #f2f2f2">
+        <div class="col text-white" style="float: right;text-align: right;margin: 7px 39px 3px 0;
+           font-size: 20px; color: #f2f2f2 !important;">
+            <a href="{{ route('logout') }}" onclick="event.preventDefault();
+                 document.getElementById('logout-form').submit();" style="color: #ffffff;">
+                <i class="text-white"></i>تسجيل الخروج</a>
 
-                تسجيل الدخول
-            </a>
+            <form id="logout-form" action="{{ route('logout') }}" method="POST"
+                  style="display: none;">  @csrf
+            </form>
 
         </div>
         <div class="col contactus" style="float: left;margin: 7px 39px 8px 24px;
