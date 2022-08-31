@@ -75,8 +75,6 @@ class tameemController extends Controller
 
     }
 
-
-
     public function update(Request $request)
     {
         $tameem = Tameem::findOrFail($request->id);
@@ -93,7 +91,6 @@ class tameemController extends Controller
 
     }
 
-
     public function show ($id){
         $tameem = Tameem::whereId($id)->get();
         $attachments = Attachment::where('Tameem_id', $id)->get();
@@ -104,13 +101,10 @@ class tameemController extends Controller
         }
     }
 
-
-
-
-    public function destroy(request $request)
+    public function destroy(Tameem $tameem)
     {
 
-        Tameem::findOrFail($request->id)->delete();
+        $tameem->delete();
         toastr()->success(trans('messages.Delete'));
         return redirect()->route('tameem.index');
 

@@ -100,7 +100,7 @@
                         </div>
                         <div class="float-left text-left">
                             <h3 class="card-text text-dark"><a href=#>مدارس المشرف : </a></h3>
-                            <h5><a href="www.soltan.school-digtal.com"> المدرسة الرقمية - سلطان بن شبيب المقاطي</a> </h5>
+                            <h5><a href="www.soltan.school-digtal.com" target="_blank"> المدرسة الرقمية - سلطان بن شبيب المقاطي</a> </h5>
                             <h5><a href="www.mansor.school-digtal.com"> المدرسة الرقمية - منصور دخيل الله الغنامي</a> </h5>
                             <h5><a href="www.fahad.school-digtal.com"> المدرسة الرقمية - فهد عايض عيد العتيبي</a> </h5>
                             <h5><a href="www.abdalla.school-digtal.com"> المدرسة الرقمية - عبد الله ميعوض العصيمي</a> </h5>

@@ -55,7 +55,7 @@
                 id="navbarCollapse"
             >
                 <div class="navbar-nav font-weight-bold mx-auto py-0">
-                    <a href="{{route('home')}}" class="nav-item nav-link active">الرئيسية</a>
+                    <a href="{{route('frontend')}}" class="nav-item nav-link active">لوحة التحكم</a>
                     <a href="#about" class="nav-item nav-link">من نحن ؟</a>
                     <a href="{{route('rules')}}" target="_blank" class="nav-item nav-link">قواعد السلوك والمواظبة</a>
                     <a href="{{route('plans')}}" target="_blank" class="nav-item nav-link">خطة التوجية والارشاد</a>

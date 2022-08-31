@@ -15,7 +15,7 @@ use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 |
 */
 
-Auth::routes(['verify'=>true]);
+Auth::routes(['verify'=>true ,'register'=>false]);
 Route::group([ 'middleware' =>'auth'],function(){
 
     Route::get('/','HomeController@index')->name('frontend');
