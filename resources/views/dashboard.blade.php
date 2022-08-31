@@ -100,10 +100,23 @@
                         </div>
                         <div class="float-left text-left">
                             <h3 class="card-text text-dark"><a href=#>مدارس المشرف : </a></h3>
-                            <h4><a href="www.soltan.school-digtal.com"> المدرسة الرقمية - سلطان بن شبيب المقاطي</a> </h4>
-                            <h4><a href="www.soltan.school-digtal.com"> المدرسة الرقمية - سلطان بن شبيب المقاطي</a> </h4>
-                            <h4><a href="www.soltan.school-digtal.com"> المدرسة الرقمية - سلطان بن شبيب المقاطي</a> </h4>
-                            <h4><a href="www.soltan.school-digtal.com"> المدرسة الرقمية - سلطان بن شبيب المقاطي</a> </h4>
+                            <h5><a href="www.soltan.school-digtal.com"> المدرسة الرقمية - سلطان بن شبيب المقاطي</a> </h5>
+                            <h5><a href="www.mansor.school-digtal.com"> المدرسة الرقمية - منصور دخيل الله الغنامي</a> </h5>
+                            <h5><a href="www.fahad.school-digtal.com"> المدرسة الرقمية - فهد عايض عيد العتيبي</a> </h5>
+                            <h5><a href="www.abdalla.school-digtal.com"> المدرسة الرقمية - عبد الله ميعوض العصيمي</a> </h5>
+                            <h5><a href="www.husean.school-digtal.com"> المدرسة الرقمية - حسين غليان المقاطي</a> </h5>
+                            <h5><a href="www.abeed.school-digtal.com"> المدرسة الرقمية - عبيد عتيق العصيمي</a> </h5>
+                            <h5><a href="www.soltannor.school-digtal.com"> المدرسة الرقمية - سلطان نور الذيابي</a> </h5>
+                            <h5><a href="www.bander.school-digtal.com"> المدرسة الرقمية - بندر عجاب العتيبي</a> </h5>
+                            <h5><a href="www.aazy.school-digtal.com"> المدرسة الرقمية - غازي علي العتيبي</a> </h5>
+                            <h5><a href="www.saad.school-digtal.com"> المدرسة الرقمية - سعد زامل العتيبي</a> </h5>
+                            <h5><a href="www.alisnaan.school-digtal.com"> المدرسة الرقمية - علي سنان الروقي</a> </h5>
+                            <h5><a href="www.bader.school-digtal.com"> المدرسة الرقمية - بدر سعد العصيمي</a> </h5>
+                            <h5><a href="www.hany.school-digtal.com"> المدرسة الرقمية - هاني دخيل الله الثبيتي</a> </h5>
+                            <h5><a href="www.soltan.school-digtal.com"> المدرسة الرقمية - سلطان عبد الرحمن الوقداني</a> </h5>
+                            <h5><a href="www.mmofreh.school-digtal.com"> المدرسة الرقمية - محمد مفرح العتيبي</a> </h5>
+                            <h5><a href="www.mmotlag.school-digtal.com"> المدرسة الرقمية - محمد مطلق القثامي</a> </h5>
+                            <h5><a href="www.faysel.school-digtal.com"> المدرسة الرقمية - فيصل طلال العصيمي</a> </h5>
                         </div>
                     </div>
 
