@@ -18,13 +18,13 @@
         </div>
         <div class="col contactus" style="float: left;margin: 7px 39px 8px 24px;
     font-size: 15px;">
-            <a href="https://twitter.com/moe_tif_09_0013" target="_blank" style="color: #f2f2f2">
+            <a href="#" target="_blank" style="color: #f2f2f2">
                 <i class="fa fa-twitter fa-2x"></i>
             </a>
-            <a href="mailto:std.sys.2030@gmail.com" target="_top" style="color: #f2f2f2">
+            <a href="#" target="_top" style="color: #f2f2f2">
                 <i class="fa fa-envelope-o fa-2x"></i>
             </a>
-            <a href="https://wa.me/+966560286264" target="_blank" style="color: #f2f2f2">
+            <a href="#" target="_blank" style="color: #f2f2f2">
 
                 <i class="fa fa-whatsapp fa-2x"></i>
             </a>

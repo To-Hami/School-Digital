@@ -47,7 +47,7 @@ login-->
                      style="background-image: url({{asset('images/login-inner-bg.jpg')}});">
                     <div class="login-fancy ">
 
-                            <h4 class="text-white mb-20 ">مرحبا بك في المدرسة التقنية  </h4>
+                            <h4 class="text-white mb-20 ">مرحبا بك في {{$detail->name ?? 'المدرسة التقنية'}}  </h4>
 
                                 <img style="width: 130px; border-radius:0 15px 15px 0;height: 150px;position: absolute;left: 0;top: 0" src="{{asset('assets/images/login-auth.png')}}" alt="...">
 
@@ -74,7 +74,7 @@ login-->
                             <div class="section-field mb-20">
                                 <label class="mb-10" for="name">البريدالالكتروني*</label>
                                 <input id="email" type="email"
-                                       class="form-control @error('email') is-invalid @enderror" name="email" value="tohami00076@gmail.com"
+                                       class="form-control @error('email') is-invalid @enderror" name="email" value=""
                                        required autocomplete="email" autofocus>
                                 @error('email')
                                 <span class="invalid-feedback" role="alert">
@@ -87,7 +87,7 @@ login-->
                             <div class="section-field mb-20">
                                 <label class="mb-10" for="Password">كلمة المرور * </label>
                                 <input id="password" type="password"
-                                       class="form-control @error('password') is-invalid @enderror" name="password" value="password"
+                                       class="form-control @error('password') is-invalid @enderror" name="password" value=""
                                        required ="current-password">
 
                                 @error('password')

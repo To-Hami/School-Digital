@@ -12,7 +12,7 @@ class Response_table_seeder extends Seeder
 
             \App\Respons::create([
                 'name' => 'Bader',
-                'email' => 'tohami00076@gmail.com',
+                'email' => 'rakanov123@gmail.com',
             ]);
 
     }
