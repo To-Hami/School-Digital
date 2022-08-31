@@ -100,7 +100,10 @@
                         </div>
                         <div class="float-left text-left">
                             <h3 class="card-text text-dark"><a href=#>مدارس المشرف : </a></h3>
-                            <h4>{{$studants->count()}}</h4>
+                            <h4><a href="www.soltan.school-digtal.com"> المدرسة الرقمية - سلطان بن شبيب المقاطي</a> </h4>
+                            <h4><a href="www.soltan.school-digtal.com"> المدرسة الرقمية - سلطان بن شبيب المقاطي</a> </h4>
+                            <h4><a href="www.soltan.school-digtal.com"> المدرسة الرقمية - سلطان بن شبيب المقاطي</a> </h4>
+                            <h4><a href="www.soltan.school-digtal.com"> المدرسة الرقمية - سلطان بن شبيب المقاطي</a> </h4>
                         </div>
                     </div>
 
